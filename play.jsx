@@ -1,4 +1,3 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
 
 /* ============================================================
    TRIB & TRIP — EL JUEGO DE LA TRIBU (PRO · Escalable)
@@ -9,9 +8,12 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
    - Pasaporte final descargable (en bloque 3)
    ============================================================ */
 
+const { useEffect, useMemo, useRef, useState } = React;
+
 /* ---------------------------
    Marca TRIB & TRIP
 ---------------------------- */
+
 const BRAND = {
   colors: {
     verde: "#4F5F3E", // Verde Tierra
