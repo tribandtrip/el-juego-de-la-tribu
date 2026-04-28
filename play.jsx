@@ -827,7 +827,18 @@ function App() {
     return (
       <Page>
         <Card>
-          <div style={{ textAlign: "center", padding: "10px 6px" }}>
+            <div style={{ marginBottom: 16 }}>
+              <img
+                src="https://passport.tribandtrip.com/preview.jpg"
+                alt="TRIB & TRIP — El Juego de la Tribu"
+                style={{
+                  width: "100%",
+                  borderRadius: 18,
+                  objectFit: "cover",
+                }}
+              />
+            </div>
+            <div style={{ textAlign: "center", padding: "10px 6px" }}>
             <div style={{ fontSize: 44, marginBottom: 8 }}>🧭</div>
             <div
               style={{
