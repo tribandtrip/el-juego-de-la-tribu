@@ -827,21 +827,8 @@ function App() {
     return (
       <Page>
         <Card>
-            <div style={{ marginBottom: 16 }}>
-              <img
-                src="https://passport.tribandtrip.com/preview.jpg"
-                alt="TRIB & TRIP — El Juego de la Tribu"
-                style={{
-                  width: "100%",
-                  borderRadius: 18,
-                  objectFit: "cover",
-                  maxHeight: 220,
-                }}
-              />
-            </div>
-            <div style={{ textAlign: "center", padding: "10px 6px" }}>
-            <div style={{ fontSize: 44, marginBottom: 8 }}>🧭</div>
-            <div
+
+         <div
               style={{
                 fontFamily: BRAND.fonts.title,
                 fontWeight: 900,
@@ -865,6 +852,20 @@ function App() {
             >
               El Juego de la Tribu
             </div>
+            <div style={{ marginBottom: 16 }}>
+              <img
+                src="https://passport.tribandtrip.com/preview.jpg"
+                alt="TRIB & TRIP — El Juego de la Tribu"
+                style={{
+                  width: "100%",
+                  borderRadius: 18,
+                  objectFit: "cover",
+                }}
+              />
+            </div>
+            <div style={{ textAlign: "center", padding: "10px 6px" }}>
+            <div style={{ fontSize: 44, marginBottom: 8 }}>🧭</div>
+
 
             <div className="tt-muted" style={{ fontSize: 14, lineHeight: 1.55, marginBottom: 14 }}>
               Este juego no es un test. Es una brújula suave para entender
