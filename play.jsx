@@ -867,8 +867,8 @@ function App() {
               No guardamos datos. No hay cuentas. No hay seguimiento. Solo una brújula para conocerte mejor.
             </div>
 
-            <PrimaryButton onClick={startGame}>Comenzar la travesía</PrimaryButton>
-            <div style={{ marginTop: 12, fontFamily: BRAND.fonts.title, fontWeight: 900, color: BRAND.colors.verde }}>
+            <PrimaryButton onClick={startGame}>Descubrir mi identidad</PrimaryButton>
+            <div style={{ marginTop: 12, fontFamily: BRAND.fonts.title, fontWeight: 800, fontSize: 14, color: BRAND.colors.verde, opacity: 0.75 }}>
               {BRAND.tagline}
             </div>
           </div>
