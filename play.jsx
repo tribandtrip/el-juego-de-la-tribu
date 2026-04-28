@@ -920,6 +920,7 @@ function App() {
                   >
                     {p.icon}
                   </div>
+                   <div style={{ flex: 1 }}>
                      <div style={{ fontFamily: BRAND.fonts.title, fontWeight: 900, fontSize: 18 }}>
                        {p.title} {idx === 2 ? "· Pasaporte completo" : ""}
                      </div>
