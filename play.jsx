@@ -835,6 +835,7 @@ function App() {
                   width: "100%",
                   borderRadius: 18,
                   objectFit: "cover",
+                  maxHeight: 220,
                 }}
               />
             </div>
@@ -866,7 +867,7 @@ function App() {
             </div>
 
             <div className="tt-muted" style={{ fontSize: 14, lineHeight: 1.55, marginBottom: 14 }}>
-              Este juego no es un test que te etiqueta. Es una brújula suave para entender
+              Este juego no es un test. Es una brújula suave para entender
               <b> cómo eres cuando viajas y convives</b>: qué energía te sale natural, qué aportas en grupo y con quién encajas de verdad.
             </div>
 
